@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-simple-build-efea
     spec:
       containers:
-      - image: quay.io/tnevrlka-test/build-e2e-tjdp-tenant/build-suite-test-application-emit/test-simple-build-efea@sha256:1501ebe13304970ceba32314605ba6ee6e9017757169e9733662bd423d9a72a8
+      - image: quay.io/tnevrlka-test/build-e2e-tjdp-tenant/build-suite-test-application-emit/test-simple-build-efea@sha256:2b9a8e89c6299d70bc423b22d1b13890c72d480b99780141a5ebdafa0b420577
         name: my-nginx
         ports:
         - containerPort: 8080
